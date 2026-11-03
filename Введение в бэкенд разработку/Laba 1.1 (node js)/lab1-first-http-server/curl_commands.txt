@@ -1,0 +1,37 @@
+# Запуск сервера
+npm run dev
+
+# 1. Корневой endpoint
+curl http://localhost:3000/
+
+# 2. JSON endpoint - статус
+curl http://localhost:3000/api/status
+
+# 3. JSON endpoint - информация
+curl http://localhost:3000/api/info
+
+# 4. Параметризованный endpoint
+curl http://localhost:3000/api/users/5
+
+# 5. Параметризованный endpoint
+curl http://localhost:3000/api/users/123
+
+# 6. Параметризованный endpoint
+curl http://localhost:3000/api/users/ivan
+
+# 7. Проверка ошибки 404
+curl http://localhost:3000/anything-else
+
+# Индивидуальное задание 2
+
+# Корневой endpoint
+curl http://localhost:3000/
+
+# Список студентов
+curl http://localhost:3000/api/students
+
+# Список групп
+curl http://localhost:3000/api/groups
+
+# Проверка ошибки 404
+curl http://localhost:3000/abrakadabra
