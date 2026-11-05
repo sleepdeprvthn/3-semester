@@ -6,6 +6,13 @@
 **/__pycache__/
 *.py[cod]
 
+# Node.js dependencies
+**/node_modules/
+
+# Node.js logs
+npm-debug.log*
+*.log
+
 # IDE settings
 **/.idea/
 
