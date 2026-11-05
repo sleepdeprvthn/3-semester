@@ -59,7 +59,7 @@ python app.py
 - `http://127.0.0.1:3000/`
 - `http://127.0.0.1:3000/api/students`
 - `http://127.0.0.1:3000/api/groups`
-- `http://127.0.0.1:3000/grrrr`
+- `http://127.0.0.1:3000/api/grrrr`
 
 **Главная страница:**
 
