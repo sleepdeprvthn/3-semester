@@ -6,7 +6,7 @@ app = Flask(__name__)
 # 1. Главная страница
 @app.route('/')
 def home():
-    return 'Flask server is working!'
+    return 'Добро пожаловать на сервер!'
 
 
 # 2. Список студентов
